@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" type="text/css" href="重置样式表.css">
+    <link rel="stylesheet" type="text/css" href="JS-5.css">
+</head>
+<body>
+    <div class="login-box flex-box flex-down">
+        <div class="title">后台登录</div>
+        <div class="input-bar flex-box ">
+            <div class="bg-zhanghao"></div>
+            <div class="vertical-line"></div>
+            <input type="text" class="input-box" id="a" placeholder="用户名" v-model="username">
+        </div>
+        <div class="input-bar flex-box ">
+            <div class="bg-zhanghao"></div>
+            <div class="vertical-line"></div>
+            <input type="password" class="input-box" id="b" placeholder="密码" v-model="password">
+        </div>
+        <div>
+            <button class="btn" type="primary btnone"  onclick="btn()">登录</button>
+        </div>
+    </div>
+        
+    <script src="JS-5.js"></script>
+</body>
+</html>
