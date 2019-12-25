@@ -14,7 +14,7 @@ function btn() {
             console.log(xhr.readyState == 4 && xhr.status == 200)
             console.log(resdata);
 
-            if(resdata.code === 0 ) {
+            if(resdata.code == 0 ) {
                 alert('成功啦')
             } else {
                 alert('账号密码错误')
